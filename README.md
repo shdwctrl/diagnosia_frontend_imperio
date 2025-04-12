@@ -1,2 +1,2 @@
-# diagnosia_backend_imperio
-medical disease prediction model backend using django and  machine learning
+# diagnosia_frontend_imperio
+medical disease prediction fontend file creatd using next js
