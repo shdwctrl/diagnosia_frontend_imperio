@@ -1,0 +1,17 @@
+.main {
+    width:32%;
+    height:100%;
+    background-color:rgba(147, 182, 243, 0.627);
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+
+.box {
+    width:100%;
+    height:560px;
+    background:url('/bg.png');
+    background-repeat:no-repeat;
+    background-size:contain;
+    background-position:center;
+}

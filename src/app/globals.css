@@ -1,0 +1,61 @@
+* {
+  margin:0;
+  padding:0;
+  border:0;
+  box-sizing:border-box;
+}
+
+body, html {
+  width:100vw;
+  height:auto;
+  overflow-x:hidden;
+  font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+  scroll-behavior:smooth;
+}
+
+button {
+  cursor:pointer;
+  outline:none;
+  border:none;
+}
+
+input, textarea {
+  outline:none;
+  border:none;
+}
+
+a {
+  text-decoration:none;
+  color:inherit;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+.custom-input {
+  text-align: right;
+  background-color:#222222;
+  color: #eb711b;
+  height: 46px !important;
+  line-height: 46px !important;
+  &::placeholder {
+    color: #eb711b;
+  }
+}
+.custom-days {
+  background-color: #222222;
+  .is-week-days {
+    color: #eb711b;
+  }
+  .is-disabled {
+    color: #444;
+  }
+}
+.react-calendar-datetime-picker .header {
+  background:transparent;
+}
+
+.custom-header {
+  background-color:#eb711b;
+}
